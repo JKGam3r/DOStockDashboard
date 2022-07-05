@@ -1,0 +1,36 @@
+TEST get_input_info():
+    1) Test that all other input (for anything) is accepted
+    2) Test that the user can both reset and exit at any time.
+
+TEST create_excel_file():
+    1) Test that get_input_info() == None means the user wants to exit (and should exit the program)
+    1) Test that the ticker symbol is valid through a try-catch statement
+
+TEST make_pivot_table():
+    1) Make sure the pivot table is correctly displayed
+
+TEST add_pivot_tables():
+    1) Test that the path is valid
+    2) Test that the excel file contains the correct (starting) data
+    3) Test that the path given is valid (and if not, make the new file in the current directory)
+    4) Test that all tables are created to correct specifications by analyzing the created excel file
+
+TEST create_dashboard():
+    1) Test that the dashboard sheet is created
+    2) Test that all sheets besides the dashboard sheet are hidden
+    3) Test that all graphs and data sections were made as desired
+
+TEST color_background():
+    1) Test that all desired cells are shaded in as desired
+
+TEST add_stat_overview():
+    1) Test that the stats section is displayed as requested and in the correct position
+
+TEST add_ohlc_stats():
+    1) Test that the ohlc section is displayed as requested and in the correct position
+
+TEST add_calculations():
+    1) Test that the calculations section is displayed as requested and in the correct position
+
+TEST add_special_thanks():
+    1) Test that the thanks sections is displayed as requested and in the correct position
