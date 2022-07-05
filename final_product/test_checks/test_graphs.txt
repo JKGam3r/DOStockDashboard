@@ -1,0 +1,5 @@
+TEST standard_stock_graph():
+    1) Test that grpah is displayed as desired
+
+TEST open_high_low_close_graph():
+    1) Test that graph is displayed as desired

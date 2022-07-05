@@ -1,0 +1,17 @@
+class FinancialHealth():
+    TEST quick_ratio():
+        1) Test that quick ratio is comparable to online sources
+    TEST current_ratio():
+        1) Test that current ratio is comparable to online sources
+    TEST debt_to_equity():
+        1) Test that debt-to-equity ratio is comparable to online sources
+
+class Growth():
+    TEST revenue_growth():
+        1) Test that revenue growth is comparable to online sources
+            * Due to columns in Excel having 'totalRevenue' and 'costOfRevenue,' difference
+            between these values and the ones from other sources are much higher
+    TEST operating_income_growth():
+        1) Test that operating income growth is comparable to online sources
+    TEST net_income_growth():
+        1) Test that net income growth is comparable to online sources
