@@ -1,2 +1,2 @@
 # DOStockDashboard
-Creates a dashboard for a user-inputted stock symbol.
+The goal of this project is to create a dashboard for a user-inputted ticker symbol. The ticker symbol is used to gather historical stock prices (open, high, low, close), along with balance sheet and income statement values. The output (after user has inputted necessary information including the stock symbol is a Microsoft Excel file with a visible dashboard with various charts and sections of data.
